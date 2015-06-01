@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+
+
+    <title>A Pen by  Blaine</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!DOCTYPE html>
+<!-- These are comments for myself or others who are reading my code.-->
+<!-- Not understanding <head> and <title> yet. How do I prioritize font size?-->
+<html>
+
+<head>
+  <title>Blaine's Notes</title>
+</head>
+
+<body>
+  <div class="image-container">
+    <!--not clear on how to link an image to the page-->
+    <!--<image display="center" class="header-image"-->
+  </div>
+  <h1>Unit 1</h1>
+  <div class="concept">
+    <h2>Basics of the Web</h2>
+    <div class="idea">
+      <div class="info">
+        The Web -
+        <p>
+          A system of extensively interlinked hypertext documents. A branch of the Internet. Invented in 1990's. Over 30 billion pages.
+        </p>
+        HTML -
+        <p>
+          Hypertext Markup Language: The main type of document on the Web.
+        </p>
+        URL -
+        <p>
+          Uniform Resource Locator: a protocol for specifying addresses on the Internet. An address that identifies a particular file on the Internet, usually consisting of the protocol, as http, followed by the domain name.
+        </p>
+        HTTP -
+        <p>
+          Hypertext transfer protocol: the standard protocol for transferring hypertext documents on the World Wide Web.
+        </p>
+        Web Apps -
+        <p>
+          Any computer program that runs in a web browser. It is created in a browser-supported programming language (such as the combination of JavaScript, HTML and CSS) and relies on a web browser to render the application.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="concept">
+    <h2>Major Pieces</h2>
+    <div class="idea">
+      <br>
+      <b><em>You --- Computer (Browser) --- Internet (HTTP) --- Servers</em></b>
+      <br>
+      <div>
+        HTML -
+        <p>
+          <em>Hypertext Markup Language</em>is the standard markup language used to create web pages. It is written in the form of HTML elements consisting of tags enclosed in angle brackets (like &lt;html&gt;).
+          <br><em>Text content</em>= what you see. <em>Markup</em>= what it looks like; references to other documents: (e.g. images & videos); links to other pages. Element with tags = (opening tag -- contents -- closing tag)
+          <!-- How do I show the syntax examples in my document? 
+                    ANSWER: {&lt; = <}; {&gt; = >}-->
+        </p>
+        Tag:
+        <p>
+          HTML tags are the hidden keywords within a web page that define how the browser must format and display the content. Most tags must have two parts, an opening and a closing part. For example, &lt;html&gt; is the opening tag and &lt;/html&gt; is the closing
+          tag.
+        </p>
+        Element:
+        <p>
+          An HTML element is an individual component of an HTML document or web page, once this has been parsed into the Document Object Model ("DOM"). HTML is composed of a tree of HTML elements and other nodes, such as text nodes. Each element can have HTML attributes
+          specified.
+          <br>It's everything within a set of opening/closing tags
+        </p>
+        Attribute:
+        <p>
+          An HTML attribute is a modifier of an HTML element. They are usually added to a HTML start tag, which along with content and end tag comprises most HTML elements. Particular attributes are only supported by particular element types; if they are added
+          to elements that do not support them they will not function.
+          <br>It's a property of an HTML element: &lt;href&gt;
+
+        </p>
+        HTML Attributes -
+        <p>
+          HTML elements can have attributes.
+          <ul>
+            <li>Attributes provide additional information about an element.</li>
+            <li>Attributes are always specified in the start tag.</li>
+            <li>Attributes come in name/value pairs like: name="value"</li>
+            <li>(attribute name - value - contents) Images - Whitespace - inline; block</li>
+          </ul>
+          <!-- Still a little unclear on the Attribute definition-->
+          <br> HTML Block Elements and Inline Elements -
+          <p>
+            Most HTML elements are defined as block level elements or inline elements.
+            <br>Block level elements normally start (and end) with a new line, when displayed in a browser.
+            <br>Examples: &lt;h1&gt;, &lt;p&gt;, &lt;ul&gt;, &lt;table&gt;
+            <br>Inline elements are normally displayed without line breaks.
+            <br>Examples: &lt;b&gt;, &lt;td&gt;, &lt;a&gt;, &lt;img&gt;
+          </p>
+          span & div Elements -
+          <p>
+            A span element is in-line and usually used for a small chunk of HTML inside a line (such as inside a paragraph)
+            <br>A div (division) element is block-line (which is basically equivalent to having a line-break before and after it) and used to group larger chunks of code.
+            <!--When would you use a span element?-->
+          </p>
+      </div>
+    </div>
+  </div>
+  <h1>Unit 1.2</h1>
+  <div class="concept">
+    <h2>HTML and CSS</h2>
+    <div class="idea">
+      <b>Front End Web Development</b>
+      <div>
+        <p>
+          HTML - the structure of a webpage
+          <br>CSS - the style (design/graphics) of a webpage
+          <br>Javascript - interactive components; changing some element of your webpage
+        </p>
+        <p>
+          HTML uses a<em>Tree Like Structure.</em>The elements are built in layers that look like boxes inside of boxes or elements inside of elements. Think of a family tree.
+        </p>
+        <p>
+          HTML and CSS are both "languages"
+          <br> HTML controls the "structure" of a web page
+          <br> CSS controls the "style" of a web page (how it looks).
+          <br> When programmers talk about the "DOM" (Document Object Model) they are talking about the tree-like structure of a page.
+        </p>
+        <p>
+          HTML -<em>HyperText Markup Language</em>- the standard markup language used to create web pages.
+          <br> CSS - <em>Cascading Style Sheets</em> - style sheet language used for describing the look and formatting of a document written in a markup language.
+          <br> DOM - <em>Document Object Model</em> - a cross-platform and language-independent convention for representing and interacting with objects in HTML (and other markup languages). The nodes of every document are organized in a tree structure, called
+          DOM tree.
+        </p>
+        <!--Have noticed that the <em></em> element automatically inserts spaces between the words-->
+        <p>
+          <em>Helpful Tool -
+          <br>Google Chrome developer tools : Tools > Developer tools
+          <br> Left window is HTML Elements: mouse over elements will highlight the code; can drill down into the code
+          <br> Right window is CSS Styles:</em>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <h1>Unit 1.3</h1>
+  <div class="concept">
+    <h2>Boxes</h2>
+    <div class="idea">
+      <b>Box Sizing</b>
+      <p>There are four main points about box sizing.
+        <ol>
+          <li>
+            HTML elements are boxes and each box has 4 components.
+          </li>
+          <li>
+            Because there are so many components to each box, it can often be hard to get the size of a box just right.
+          </li>
+          <li>
+            There are two techniques you can use to help deal with sizing issues.
+            <br> a.Set sizes in terms of percentages rather than pixels.
+            <br> b.Set the box-sizing attribute to border-box for every element.
+          </li>
+          <li>
+            Different browsers work slightly differently. Sometimes this causes different browsers to display the same code differently.
+          </li>
+        </ol>
+
+        <b>Box Positioning</b>
+        <p>
+          Divs are<b>block</b>elements (as opposed to<b>inline</b>), so by default they take up the entire width of a page.
+        </p>
+        <p>
+          Adding the rule<em>display: flex;</em>to the appropriate CSS will override this behavior and let divs appear next to each other.
+        </p>
+
+    </div>
+  </div>
+  <div class="concept">
+    <h2>CSS</h2>
+    <div class="idea">
+      <p>
+        CSS is code written to control the "style" of HTML elements. CSS stands for "Cascading Style Sheets." The "C" is by far the most important part of this phrase. Cascading means "most specific" rules. Find the rule that best describes the elements. Then
+        that rule gets applied.
+      </p>
+      <p>
+        Inheritance is a key feature in CSS, it relies on the ancestor-descendant relationship to operate. Inheritance is the mechanism by which properties are applied not only to a specified element, but also to its descendants. Inheritance prevents certain
+        properties from being declared over and over again in a style sheet, allowing the software developers to write less CSS. It enhances faster-loading of web pages by users and enables the clients to save money on bandwidth and development costs.
+      </p>
+      <p>
+        In HTML, code comments begin with &lt;!-- and end with --&gt;. Everything in between is ignored. In CSS, code comments begin with /* and end with */.
+      </p>
+      <b>Avoid Repetition</b>
+        <p>
+          Programmers should always avoid repetition. Computers are not smart. They interpret instructions literally. When programmers repete themselves they create opportunites for human error and mistakes by potentially missing details in the program. The computer will take these missing details literally and create multiple problems for the programmer if they need to make changes.  
+        </p>
+    </div>
+  </div>
+  <div class="footnote">
+    <em>*HTML: definitions and descriptions compiled through Google searches and Udacity instructor notes. CSS: styling compiled through Google searches and Udacity examples*</em>
+  </div>
+</body>
+
+</html>
+    
+    
+    
+    
+    
+  </body>
+</html>
